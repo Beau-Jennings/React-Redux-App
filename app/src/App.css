@@ -1,0 +1,41 @@
+.App {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(14, 239, 255);
+}
+
+.Menu {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.Menu a {
+  background-color: cyan;
+  border-radius: 10%;
+  margin: 0 4%;
+  padding: 0 3%;
+  color: #fff;
+  text-decoration: none;
+}
+.Header {
+  background-color: #03d31f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2% 0;
+}
+
+.Cards {
+  background-color: #03d31f;
+  color: #fff;
+  margin: 2% 2%;
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: 15%;
+}
